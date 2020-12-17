@@ -1,0 +1,237 @@
+*{margin:0;padding: 0; box-sizing: border-box;}
+
+
+/*=----------- Css Contact Us -----------=*/
+
+.btn-outline-success {
+    margin-left: 50%;
+    padding: 5px 70px 5px 70px;
+    border-radius: 40px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    transform: translateX(-50%);
+}
+
+.contact-title {
+    text-transform: uppercase;
+    color: #999;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.contact-icon {
+    font-size: 55px;
+    color: #18d36e;
+    padding: 0 0 15px 0;
+    transition: 0.4s;
+}
+
+.card:hover .contact-icon {
+    transform: scale(1.1);
+    color: #11a555;
+}
+
+
+/*=------------- Css Featured Course -------------=*/
+
+
+.card:hover {
+    box-shadow: 0 24px 38px rgba(81,107,117,.21);
+    -webkit-transform: scale(1.1);
+       -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+         -o-transform: scale(1.1);
+            transform: scale(1.1);
+}
+
+.card {
+    text-align: center;
+    border: none;
+    -webkit-transition: all 0.4s;
+       -moz-transition: all 0.4s;
+        -ms-transition: all 0.4s;
+         -o-transition: all 0.4s;
+            transition: all 0.4s;
+    -webkit-transform: scale(1);
+       -moz-transform: scale(1);
+        -ms-transform: scale(1);
+         -o-transform: scale(1);
+            transform: scale(1);
+}
+
+.featured-course {
+    background: #f7f7f7;
+}
+
+.title {
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    color: #141414;
+    position: relative;
+}
+
+.title::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 28px;
+    left: calc(50% - 60px);
+}
+
+.title::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #18d26e;
+    bottom: 27px;
+    left: calc(50% - 20px);
+}
+
+
+/*=------------ carousel ------------=*/
+
+.carousel-caption.d-none.d-md-block {
+    bottom: 35%;
+}
+
+
+.d-block.w-100 {
+    height: 600px;
+}
+
+
+/*=------------ quang cao ------------=*/
+
+#statistic-dkr{
+    padding-top: 30px;
+    padding-bottom: 48px;
+}
+.container{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.title-hp-dkr{
+    margin-bottom: 30px;
+}
+.title-hp-dkr .text {
+    font-size: 24px;
+}
+.title-hp-dkr {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+
+
+.wpb_wrapper{
+    background: url(images/slide.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0
+}
+
+
+
+/*=------------ feature layout------------=*/
+#brand-logo-two {
+    padding-top: 150px;
+}
+.teams-single {
+    padding: 116px 0 120px;
+}
+
+
+.team-member {
+    margin-bottom: 70px;
+    max-width: 370px;
+    margin: 0 auto 70px;
+}
+
+
+
+
+
+/*=------------ feature registic student------------=*/
+
+
+
+#enroll{ 
+    background-color: #ffffff;
+    margin: 0;
+}
+#enroll .col-content {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: center;
+}
+#enroll .title1 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 26px;
+    color: #BD2E2E;
+    margin: 0;
+}
+
+#enroll .title-2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 22px;
+    color: #BD2E2E;
+    text-transform: uppercase;
+}
+.form-group .custom-input {
+    height: 56px;
+}
+.form-control {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #000000;
+    border-color: #BD2E2E;
+    margin-bottom: 10px;
+}
+
+
+#enroll .title-h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 26px;
+    color: #BD2E2E;
+    font-size: 22px;
+    margin: 0;
+}
+#namep{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #000000;
+}
+/*/button*/
+.btn-cta {
+    margin-left: 50px;
+    border: none;
+    border-radius: 21px;
+    background-color: #BD2E2E;
+    margin-top: 10px;
+    height: 56px;
+    width: 80%;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
